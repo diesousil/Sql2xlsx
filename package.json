@@ -1,0 +1,23 @@
+{
+  "name": "sql2xlsx",
+  "version": "1.0.0",
+  "description": "Convert database to xlsx",
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "xlsx",
+    "export"
+  ],
+  "license": "ISC",
+  "author": "Diego Silva",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "excel4node": "^1.8.2",
+    "mariadb": "^3.4.1"
+  }
+}
